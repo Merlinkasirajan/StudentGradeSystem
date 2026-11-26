@@ -10,7 +10,7 @@ Original file is located at
 try:
     import streamlit as st
 except ModuleNotFoundError:
-    !pip install -q streamlit
+
     import streamlit as st
 
 GRADE_BOUNDARIES = [(70, "First"), (60, "2:1"), (50, "2:2"), (40, "Third")]
